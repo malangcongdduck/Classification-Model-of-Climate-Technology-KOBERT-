@@ -1,9 +1,9 @@
 # Classification-Model-of-Climate-Technology-KOBERT-
-<p>
-  - 기후기술분류체계로 분류하는 AI
-  - 녹색기후기술센터에서 제공하는 기후기술분류체계, 국가연구개발사업 Data 사용
-  - SKTBrain에서 제공하는 KoBERT 사용
-<p>
+- 기후기술분류체계로 분류하는 AI
+- 녹색기후기술센터에서 제공하는 기후기술분류체계, 국가연구개발사업 Data 사용
+- SKTBrain에서 제공하는 KoBERT 사용
+
+  
 ## Model
   - SKT Brain Team에서 제공하는 KoBERT
   - KoBERT 학습 셋과 학습 환경, 성능은 아래의 링크를 확인.
@@ -44,7 +44,7 @@
         - '요약문_한글키워드 75% 길이 : 9.0'
         - '요약문_한글키워드 평균 길이 : 7.467393887839478'
         ![image](https://user-images.githubusercontent.com/76987629/200157749-d473ddd3-37a1-4794-8e0e-c10353aab892.png)
-      <사업_부처별 진행 연구 개수(train_data)>
+    <사업_부처별 진행 연구 개수(train_data)>
         ![image](https://user-images.githubusercontent.com/76987629/200157754-56db9d1f-103e-4c7a-be11-c44c8f37d392.png)
 
 
