@@ -13,7 +13,7 @@
 
   
 ## Experiment-environment
-  <hyper-parameter>
+  <hyper-parameter><br>
     - Label One-Hot Encoding
     - Validation_split = 0.2
     - Earlystopping
@@ -23,7 +23,7 @@
     - Optimizer = Adam(lr=1e-4)
     - Batch_size = 32
     - loss = categorical_crossentropy
-  <data>
+  <data><br>
     - train: 174,304
     - test: 217,879
     - feature: 사업명 + 사업_부처명 + 과제명 + 요약문_한글키워드
