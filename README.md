@@ -42,7 +42,9 @@
   - '요약문_한글키워드 최대 길이 : 17'
   - '요약문_한글키워드 75% 길이 : 9.0'
   - '요약문_한글키워드 평균 길이 : 7.467393887839478'
-  ![image](https://user-images.githubusercontent.com/76987629/200157749-d473ddd3-37a1-4794-8e0e-c10353aab892.png)
+  <br>
+  <box_plots>
+    ![image](https://user-images.githubusercontent.com/76987629/200157749-d473ddd3-37a1-4794-8e0e-c10353aab892.png)
 <br>
   
 <사업_부처별 진행 연구 개수(train_data)>
