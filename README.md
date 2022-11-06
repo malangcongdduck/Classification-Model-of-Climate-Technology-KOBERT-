@@ -50,7 +50,13 @@
   ![image](https://user-images.githubusercontent.com/76987629/200157754-56db9d1f-103e-4c7a-be11-c44c8f37d392.png)
 
 
-    
+## Result
+  - loss Curve
+  - ![image](https://user-images.githubusercontent.com/76987629/200158050-42939fd8-00c8-4514-8837-a0287d801816.png)
+
+  - Accuracy Curve
+  - ![image](https://user-images.githubusercontent.com/76987629/200158054-ffd36384-1cd7-4406-aeca-3c9432677a11.png)
+
     
 ## *Label info*
   |label|내용|
