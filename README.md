@@ -13,16 +13,17 @@
 
   
 ## Experiment-environment
-  <hyper-parameter><br>
-    - Label One-Hot Encoding
-    - Validation_split = 0.2
-    - Earlystopping
-    - Epoch = 100
-    - patience = 3
-    - Min_delta =0.0001
-    - Optimizer = Adam(lr=1e-4)
-    - Batch_size = 32
-    - loss = categorical_crossentropy
+<hyper-parameter><br>
+  - Label One-Hot Encoding
+  - Validation_split = 0.2
+  - Earlystopping
+  - Epoch = 100
+  - patience = 3
+  - Min_delta =0.0001
+  - Optimizer = Adam(lr=1e-4)
+  - Batch_size = 32
+  - loss = categorical_crossentropy
+  
   <data><br>
     - train: 174,304
     - test: 217,879
