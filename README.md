@@ -23,7 +23,7 @@
   - Batch_size = 32
   - loss = categorical_crossentropy
   
-<data>
+<br>
   - train: 174,304
   - test: 217,879
   - feature: 사업명 + 사업_부처명 + 과제명 + 요약문_한글키워드
