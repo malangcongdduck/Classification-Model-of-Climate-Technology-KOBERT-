@@ -5,7 +5,7 @@
   - SKTBrain에서 제공하는 KoBERT 사용
 <p>
 
-## Label info
+  - Label info
   |label|내용|
   |:------:|:---:|
   |00|NaN|
