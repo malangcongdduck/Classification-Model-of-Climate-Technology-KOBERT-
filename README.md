@@ -13,6 +13,11 @@
 
   
 ## Experiment-environment
+  - train: 174,304
+  - test: 217,879
+  - feature: 사업명 + 사업_부처명 + 과제명 + 요약문_한글키워드
+  - label: 기후기술분류체계에 따른 46개의 label
+  - label info는 아래를 참조 ↓
   - Label One_Hot Encoding
   - Validation_split = 0.2
   - Earlystopping
@@ -23,12 +28,6 @@
   - Batch_size = 32
   - loss = categorical_crossentropy
   
-<br>
-- train: 174,304
-- test: 217,879
-- feature: 사업명 + 사업_부처명 + 과제명 + 요약문_한글키워드
-- label: 기후기술분류체계에 따른 46개의 label
-- label info는 아래를 참조 ↓
 
 ## data analysis
   - '과제명 최소 길이 : 1'
@@ -43,7 +42,7 @@
   - '요약문_한글키워드 75% 길이 : 9.0'
   - '요약문_한글키워드 평균 길이 : 7.467393887839478'
 <br>
-<box_plots>
+
   ![image](https://user-images.githubusercontent.com/76987629/200157749-d473ddd3-37a1-4794-8e0e-c10353aab892.png)
 <br>
   
