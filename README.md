@@ -13,7 +13,6 @@
 
   
 ## Experiment-environment
-<h4>hyper-parameter</h4>
   - Label One_Hot Encoding
   - Validation_split = 0.2
   - Earlystopping
@@ -32,7 +31,6 @@
   - label info는 아래를 참조 ↓
 
 ## data analysis
-<box-plots>
   - '과제명 최소 길이 : 1'
   - '과제명 25% 길이 : 6.0'
   - '과제명 최대 길이 : 17'
