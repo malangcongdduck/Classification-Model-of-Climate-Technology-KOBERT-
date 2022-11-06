@@ -4,8 +4,53 @@
   - 녹색기후기술센터에서 제공하는 기후기술분류체계, 국가연구개발사업 Data 사용
   - SKTBrain에서 제공하는 KoBERT 사용
 <p>
+## Model
+  - SKT Brain Team에서 제공하는 KoBERT
+  - KoBERT 학습 셋과 학습 환경, 성능은 아래의 링크를 확인.
+  - https://github.com/SKTBrain/KoBERT
+  - Model summary
+  ![image](https://user-images.githubusercontent.com/76987629/200157682-025d6493-7d45-4e74-9a87-dd252313ed30.png)
 
-  - Label info
+  
+## Experiment-environment
+  <hyper-parameter>
+    - Label One-Hot Encoding
+    - Validation_split = 0.2
+    - Earlystopping
+    - Epoch = 100
+    - patience = 3
+    - Min_delta =0.0001
+    - Optimizer = Adam(lr=1e-4)
+    - Batch_size = 32
+    - loss = categorical_crossentropy
+  <data>
+    - train: 174,304
+    - test: 217,879
+    - feature: 사업명 + 사업_부처명 + 과제명 + 요약문_한글키워드
+    - label: 기후기술분류체계에 따른 46개의 label
+    - label info는 아래를 참조 ↓
+
+## data analysis
+    <box-plots>
+        - '과제명 최소 길이 : 1'
+        - '과제명 25% 길이 : 6.0'
+        - '과제명 최대 길이 : 17'
+        - '과제명 75% 길이 : 11.0'
+        - '과제명 평균 길이 : 8.603091106969064’
+
+        - '요약문_한글키워드 최소 길이 : 1'
+        - '요약문_한글키워드 25% 길이 : 5.0'
+        - '요약문_한글키워드 최대 길이 : 17'
+        - '요약문_한글키워드 75% 길이 : 9.0'
+        - '요약문_한글키워드 평균 길이 : 7.467393887839478'
+        ![image](https://user-images.githubusercontent.com/76987629/200157749-d473ddd3-37a1-4794-8e0e-c10353aab892.png)
+      <사업_부처별 진행 연구 개수(train_data)>
+        ![image](https://user-images.githubusercontent.com/76987629/200157754-56db9d1f-103e-4c7a-be11-c44c8f37d392.png)
+
+
+    
+    
+## *Label info*
   |label|내용|
   |:------:|:---:|
   |00|NaN|
